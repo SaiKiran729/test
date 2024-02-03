@@ -1,0 +1,33 @@
+.design {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+  }
+ 
+  .design-img {
+    order: 3;
+  }
+ 
+  .design-img img {
+    width: 100%;
+  }
+ .design-img :hover{
+   transform: scale(1.1);
+   filter: drop-shadow(10px 10px 20px black);
+  
+ }
+ 
+ @media (max-width: 768px) {
+    
+   .design {
+    grid-template-columns: 1fr;
+  }
+  .design-img {
+    order: initial;
+  }
+
+ }
