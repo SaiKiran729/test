@@ -117,7 +117,7 @@
    min-height: 150vh;
    display: grid;
    grid-template-columns: 1fr;
-   background-image: url('1.jpg');
+   background-image: url('111.jpg');
    background-size: cover;
    background-repeat: no-repeat;
    align-items: center;
@@ -572,9 +572,7 @@
 
   }
 }
-.teams .title::after{
-  content;
-}
+
 .teams .carousel .card{
   background: #222;
   border-radius: 6px;
